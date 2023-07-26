@@ -1,0 +1,50 @@
+.article {
+    height: 25vh;
+    width: 44%;                 
+    font-weight: 500;
+    margin: 15px;                   
+    border: solid 1px #6459dd;
+    border-radius: 5px;
+    overflow: hidden;            
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px #6459dd;
+
+    .article-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between  ;        
+        width: 90%; 
+        height: 40%;                               
+    }
+
+    .article-options {
+        width: 90%;
+        height: 10%;
+        margin: auto;
+        color: darkred;
+    }
+
+    .article-body {
+        height: 50;
+        display: flex;
+        align-items: flex-end;                        
+    }
+
+    h2 {           
+        color: #6459dd;             
+        font-size: 18px;                                           
+        background-color: white;
+        // margin: 10px;
+    }
+    p {
+        margin: 0;
+        padding: 10px;
+        font-size: 14px;
+        width: 59%;
+        overflow: hidden;
+        color: #444444;
+    }
+
+}

@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15%;
+    border-bottom: solid 1px #6459dd;
+    align-items: center;
+
+    .logo-holder {
+        height: 60px;
+
+        img {
+            height: 100%;
+        }
+    }   
+
+    .main-nav {
+        overflow: auto;
+        border: solid 1px #6459dd;
+        border-radius: 5px;
+        display: flex;
+        
+        .main-nav-link {
+            padding: 5px;
+            list-style-type: none;
+            border: solid 1px #6459dd;
+            cursor: pointer;
+            text-decoration: none;
+            user-select: none;            
+
+            &:visited {
+                color: #4444ff;
+            }
+                        
+            &:hover *,
+            &:hover {
+                background-color: #6459dd   ;
+                transition: .3s;
+                color: white;
+            }
+
+
+
+            * {
+                border-radius: 5px;
+                text-decoration: none;
+                }
+        }
+
+    }
+}
